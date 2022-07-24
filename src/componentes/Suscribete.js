@@ -12,13 +12,18 @@ const Suscribete = () => {
       alert("No es valido");
     } else {
       let data = new FormData(e.target);
-      axios.post("https://formspree.io/f/mbjwnkna", {        
-        email: correo,        
-      },{
-        headers: {'Accept': 'application/json' }
-      })
+      axios
+        .post(
+          "https://formspree.io/f/mbjwnkna",
+          {
+            email: correo,
+          },
+          {
+            headers: { Accept: "application/json" },
+          }
+        )
         .then((response) => {
-          console.log("response",response.data)
+          console.log("response", response.data);
           if (response.data.ok) {
             alert("Valido");
           } else {

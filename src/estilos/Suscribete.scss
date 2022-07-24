@@ -1,23 +1,19 @@
-#textoSuscribete{
-    margin-top: 40px;    
+#textoSuscribete {
+  margin-top: 40px;
 }
 
-#pTextoSuscribete{
-    margin-bottom: 20px;
+#pTextoSuscribete {
+  margin-bottom: 20px;
 }
 
-#input{
-    width: 400px;
-    height: 30px;   
-    z-index: 1;
+#input {
+  width: 400px;
+  height: 30px;
+  z-index: 1;
 }
 
-
-
-
-@media(max-width: 467px){
-    #input{
-        width: 200px;     
-       
-    }
+@media (max-width: 467px) {
+  #input {
+    width: 200px;
+  }
 }

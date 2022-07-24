@@ -1,145 +1,132 @@
 #contenedorMenuInfPC > div {
-    display: none;
+  display: none;
 }
 
-#btnMenuInfPC{
-    display: none;
-    
+#btnMenuInfPC {
+  display: none;
 }
 
-a{
-    text-decoration:none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-#contenedorMenuPC{
-    position:fixed;
-    display: flex;
-    top:  17%;
-    left: 50%;     
-    transform: translate(-50%,-50%);
-    color: white;
+#contenedorMenuPC {
+  position: fixed;
+  display: flex;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-.imgOpcMenu{
- margin-bottom: 15px;
-
+.imgOpcMenu {
+  margin-bottom: 15px;
 }
 
-#opcPUFIPUFF{
-    margin-right: 40px;
-    border-right: 1px solid white;
-    padding-right: 10px;  
+#opcPUFIPUFF {
+  margin-right: 40px;
+  border-right: 1px solid white;
+  padding-right: 10px;
 }
 
-#opcPUFIRAIN{
-    margin-right: 40px;
-    border-right: 1px solid white;
-    padding-right: 10px;
+#opcPUFIRAIN {
+  margin-right: 40px;
+  border-right: 1px solid white;
+  padding-right: 10px;
 }
 
-#opcPUFICART{
-    margin-right: 40px;
-    border-right: 1px solid white;
-    padding-right: 10px;
+#opcPUFICART {
+  margin-right: 40px;
+  border-right: 1px solid white;
+  padding-right: 10px;
 }
-
-
-
 
 // CONFIGURACION DE LOS ICONOS DEL MENU TAMAÑO PC
 
-#imgOpcMenuPUFIRAIN{
-    transform: rotate(320deg); 
-    color: white;
-    font-size: 30px;
+#imgOpcMenuPUFIRAIN {
+  transform: rotate(320deg);
+  color: white;
+  font-size: 30px;
 }
 
-
-#imgOpcMenuPUFIPUFF{   
-    color: white;
-    font-size: 30px;
+#imgOpcMenuPUFIPUFF {
+  color: white;
+  font-size: 30px;
 }
 
-
-#imgOpcMenuPUFICART{   
-    color: white;
-    font-size: 30px;
+#imgOpcMenuPUFICART {
+  color: white;
+  font-size: 30px;
 }
 
-#imgOpcMenuPUFINAP{   
-    color: white;
-    font-size: 30px;
+#imgOpcMenuPUFINAP {
+  color: white;
+  font-size: 30px;
 }
-
 
 // CONFIGURACION DE LOS ICONOS DEL MENU TAMAÑO INFERIOR PC
 
-#contenedorMenuInfPC{
-    position:fixed;
-    display: block;
-    top:  35%;
-    left: 20%;     
-    transform: translate(-50%,-50%);
-    color: white;
+#contenedorMenuInfPC {
+  position: fixed;
+  display: block;
+  top: 35%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-#btnMenuInfPC{
-    position:fixed;
-    left: 50px;
-    top: 90px;
-    color: white;
-    z-index: 5;
+#btnMenuInfPC {
+  position: fixed;
+  left: 50px;
+  top: 90px;
+  color: white;
+  z-index: 5;
 }
 
-
-#ImgMenuInfPC{
-    margin-bottom: 20px;
+#ImgMenuInfPC {
+  margin-bottom: 20px;
 }
 
-
-#imgOpcMenuPUFIPUFFInfPC{     
-    font-size: 30px;
-    margin-bottom: 10px;
+#imgOpcMenuPUFIPUFFInfPC {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
-#imgOpcMenuPUFIRAINInfPC{  
-    font-size: 30px;
-       margin-bottom: 10px;  
+#imgOpcMenuPUFIRAINInfPC {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
-#imgOpcMenuPUFICARTInfPC{   
-    font-size: 30px;
-       margin-bottom: 10px;     
-}
-
-#imgOpcMenuPUFINAPnfPC{   
-    font-size: 30px;
-    margin-bottom: 10px;    
+#imgOpcMenuPUFICARTInfPC {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
-.textoImgMneuInfPC{
-    font-size: 15px;
+#imgOpcMenuPUFINAPnfPC {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
-
+.textoImgMneuInfPC {
+  font-size: 15px;
+}
 
 // Seccion responsiva del menu
 
-@media(max-width: 500px){
-    #contenedorMenuPC{
-        display: none;
-    }
-    #btnMenuInfPC{
-        display: block;
-        color: aqua;
-    }
-    #contenedorMenuInfPC > div{
-        display: block;
-        color: aqua;
-    }
+@media (max-width: 500px) {
+  #contenedorMenuPC {
+    display: none;
+  }
+  #btnMenuInfPC {
+    display: block;
+    color: aqua;
+  }
+  #contenedorMenuInfPC > div {
+    display: block;
+    color: aqua;
+  }
 
-    .textColorMenuInfPC{
-        color: aqua;
-    }
-
+  .textColorMenuInfPC {
+    color: aqua;
+  }
 }

@@ -5,9 +5,12 @@ import img2 from "../img/Baner2.png";
 import img3 from "../img/Baner3.png";
 import logoPrincipal from "../img/logoPrincipal.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faChevronDown, faShoppingCart} from "@fortawesome/free-solid-svg-icons";
+import {
+  faChevronDown,
+  faShoppingCart,
+} from "@fortawesome/free-solid-svg-icons";
 
-  const Banner = () => {
+const Banner = () => {
   const arregloImagenes = [img1, img2, img3];
 
   const [imagen, setImagen] = useState(arregloImagenes[0]);
@@ -52,17 +55,14 @@ import {faChevronDown, faShoppingCart} from "@fortawesome/free-solid-svg-icons";
 
         <div id="contenedorMi">
           <div>
-           <p id="miCuenta">MI CUENTA</p>
+            <p id="miCuenta">MI CUENTA</p>
           </div>
 
           <div>
             <FontAwesomeIcon id="imgPufiRight" icon={faChevronDown} />
           </div>
 
-         <div className="lineaB" >
-
-         </div>
-
+          <div className="lineaB"></div>
 
           <div>
             <p id="compraUsuario">MI COMPRA</p>
