@@ -1,0 +1,65 @@
+.ContenedorElementosFooter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+
+.elementoTextoPufi{
+  margin-top: 50px;
+  margin-left:20px;
+  text-align: left;
+ }
+
+.ralla{
+  
+  border-right: 1px solid #000;
+  padding-right: 80px; 
+}
+
+#contenedorTotalSiguenos{
+    display: flex;   
+  }
+
+#redS1{
+    margin-left: 5px;
+}
+#redS2{
+    margin-left: 5px;
+}
+#redS3{
+    margin-left: 5px;
+    margin-right: 30px;
+}
+#contenedorTotalSeguro{
+ margin-top: 20px;
+  display: flex;
+}
+
+#contenedorElementosCopyRaight{
+    display: flex;   
+    justify-content: space-between; 
+}
+
+#textoCopyRaight{
+    margin-left: 50px;
+}
+
+
+
+
+#cajaSegura{
+
+    width: 120px;
+    height: 60px;   
+    font-size: 10px;
+}
+
+.confIconoSeguro{
+    width: 30px;
+    margin-left: 5px;
+}
+
+#logo3{
+    width: 100px;
+    height: 40px;   
+}
