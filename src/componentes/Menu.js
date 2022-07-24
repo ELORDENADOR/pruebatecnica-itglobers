@@ -92,7 +92,7 @@ const clickMenuInfPC2 = () =>{
             <FontAwesomeIcon  icon={faChair} />
             </div>
             <div className='textoImgMneuInfPC'>
-            <a  href='#pufipuff' >PUFI PUFF</a>  
+            <a className='textColorMenuInfPC' href='#pufipuff' >PUFI PUFF</a>  
             </div>                       
                     
             </div>
@@ -103,7 +103,7 @@ const clickMenuInfPC2 = () =>{
                 <FontAwesomeIcon icon={faUmbrella} />
                 </div>
                 <div className='textoImgMneuInfPC'>
-                <a  href='#pufirain' > PUFI RAIN </a> 
+                <a className='textColorMenuInfPC' href='#pufirain' > PUFI RAIN </a> 
             </div>         
             </div>
 
@@ -113,7 +113,7 @@ const clickMenuInfPC2 = () =>{
             <FontAwesomeIcon  icon={faBagShopping} />
             </div>
             <div className='textoImgMneuInfPC'>
-            <a  href='#puficart' >PUFI CART</a> 
+            <a className='textColorMenuInfPC' href='#puficart' >PUFI CART</a> 
             </div>        
             </div>
 
@@ -124,7 +124,7 @@ const clickMenuInfPC2 = () =>{
             </div>
             <div className='textoImgMneuInfPC'>
                
-                <a  href='#pufinap'> PUFI NAP</a>  
+                <a className='textColorMenuInfPC' href='#pufinap'> PUFI NAP</a>  
             </div>        
             </div>
 

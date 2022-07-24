@@ -10,8 +10,7 @@
   text-align: left;
  }
 
-.ralla{
-  
+.linea{  
   border-right: 1px solid #000;
   padding-right: 80px; 
 }
@@ -62,4 +61,29 @@
 #logo3{
     width: 100px;
     height: 40px;   
+}
+
+
+
+@media(max-width: 917px){       
+       .elementoTextoPufi{
+          font-size: 10px;
+       }
+}
+
+@media(max-width: 805px){       
+    .elementoTextoPufi{
+       font-size: 7px;
+    }
+}
+
+@media(max-width:  461px){       
+    .linea{  
+        display: none;
+       
+      }
+
+      .elementoTextoPufi{
+        font-size: 12px;
+     }
 }

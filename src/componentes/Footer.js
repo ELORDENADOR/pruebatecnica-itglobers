@@ -19,7 +19,7 @@ const Footer = () => {
                       <img  src={imgPufipuffRightFondo}></img>
                 </div>
 
-                <div className='elementoTextoPufi ralla'>
+                <div className='elementoTextoPufi linea'>
                             <div>
                               PUFI  RAIN
                             </div>
@@ -34,22 +34,22 @@ const Footer = () => {
                             </div>
                 </div>
 
-                <div className='elementoTextoPufi ralla'>
+                <div className='elementoTextoPufi linea'>
                            <div>
-                              PUFI  RAIN
+                             CONTACTO
                             </div>
                             <div>
-                              PUFI  PUFF
+                              AYUDA
                             </div>
                             <div>
-                              PUFI  CART
+                              CÓMO COMPRAR
                             </div>
                             <div>
-                              PUFI NAP
+                              TÉRMINOS $ CONDICIONES
                             </div>
                 </div>
 
-                <div className='elementoTextoPufi ralla'>
+                <div className='elementoTextoPufi linea'>
                              <div>
                               Compra 100% Segura
                             </div>

@@ -9,7 +9,7 @@ const PufirainLeft = () => {
            <img id='imgPufirainLeftFondo' src={imgPufirainLeftFondo}></img>
 
             <div id='iconoComprasRainLeft'>
-                 <FontAwesomeIcon  icon={ faShoppingCart} />
+                 <FontAwesomeIcon id='iconoCompraRainLeft' icon={ faShoppingCart} />
              </div>
 
 

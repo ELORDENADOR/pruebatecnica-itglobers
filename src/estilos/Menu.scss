@@ -4,6 +4,7 @@
 
 #btnMenuInfPC{
     display: none;
+    
 }
 
 a{
@@ -85,9 +86,10 @@ a{
 
 #btnMenuInfPC{
     position:fixed;
-    left: 40px;
-    top: 60px;
+    left: 50px;
+    top: 90px;
     color: white;
+    z-index: 5;
 }
 
 
@@ -129,9 +131,15 @@ a{
     }
     #btnMenuInfPC{
         display: block;
+        color: aqua;
     }
     #contenedorMenuInfPC > div{
         display: block;
+        color: aqua;
+    }
+
+    .textColorMenuInfPC{
+        color: aqua;
     }
 
 }
